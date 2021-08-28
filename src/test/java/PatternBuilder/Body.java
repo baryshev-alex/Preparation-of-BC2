@@ -1,0 +1,10 @@
+package PatternBuilder;
+
+public enum Body {
+    SEDAN, CABRIOLET, HATCHBACK;
+
+    @Override
+    public String toString() {
+        return name().toLowerCase();
+    }
+}
